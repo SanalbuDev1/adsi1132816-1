@@ -34,8 +34,8 @@ body {
          transition: all 0.5s ease-in-out;
 }
 .contenido:hover img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.1) rotate(6deg);
+          transform: scale(1.1) rotate(6deg);
 }
 .contenido p{
   color: #777;
