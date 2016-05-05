@@ -1,0 +1,47 @@
+body {
+  background-color: #D8E9EA;
+  fond: 16px Tahoma;
+  color: #333;
+}
+.marcoppa1 {
+  background-color: #fff;
+  margin: 20px auto;
+  paddign: 10px;
+  width: 600px;
+}
+.encabezado {
+  background-color: #dff;
+  padding: 20px;
+  
+}
+.encabezado a {
+  background-color: #716E6E;
+  padding: 10px 36px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.encabezado a:hover {
+  background-color :#fff;
+  color: #10606f;
+}
+.contenido {
+    text-align: center;
+  }
+.contenido img {
+  transition: all 0.5s ease-in-out
+}
+.contenido:hover img {
+  transform: scale(1.1);
+}
+.contenido p{
+  color: #777;
+  text align: justify;
+  padding: 20px;
+  line-height: 24px;
+}
+.contenido:hover {
+  background-color :#897
+ }
+.pie {
+text-align: center;
+}
