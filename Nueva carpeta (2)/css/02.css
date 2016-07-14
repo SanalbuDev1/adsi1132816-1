@@ -1,0 +1,24 @@
+body{
+	background-image: url(../imgs/colombia.jpg);
+}
+li{
+	text-align: center;
+	list-style: none;
+	background: rgba(215, 168, 193, 0.9);
+	display: inline-block;
+	margin-left: 460px;
+	width: 480px;
+	padding: 10px;
+}
+li a{
+	text-decoration: none;
+}
+section{
+
+	margin:25px auto;
+	width: 500px;
+	height: 500px;
+	background: rgba(215, 168, 193, 0.6);
+	
+
+}
