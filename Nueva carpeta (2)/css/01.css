@@ -1,6 +1,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
+	border-radius: 3px;
 }
 #header{
 	margin: 10px auto;
@@ -12,6 +13,7 @@
 
 ul,li{
 	list-style: none;
+	margin-left:10px;
 	
 	
 }
@@ -45,7 +47,7 @@ ul,li{
 	position: relative;
 }
 .nav li ul li ul{
-	right:-140px;
+	right:-40px;
 	top:0px;
 }
 section.primero{
@@ -66,7 +68,7 @@ section div.izquierda{
 
 section div.pri{
 	margin:-110px 500px;
-	width: 470px;	
+	width: 438px;	
 	height: 120px;	
 	background-color: 	rgba(255,255,255,0.6);
 
@@ -90,7 +92,9 @@ body{
 	margin:center;
 	width: 1800px;	
 	height: 1000px;	
-	background-image: url(../imgs/fondo.jpg);
+	background-image: url(../imgs/invierno1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
 	
 	z-index: 1;
 }
@@ -139,6 +143,9 @@ form button{
 	width: 135px;
 	margin: 10px 0px 70px 80px;
 	height: 50px;
+	text-decoration: none;
+
+
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c3c3c+0,7c4e4e+52,2a2828+100 */
 background: #3c3c3c; /* Old browsers */
 background: -moz-linear-gradient(top,  #3c3c3c 0%, #7c4e4e 52%, #2a2828 100%); /* FF3.6-15 */
@@ -155,6 +162,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', end
 
 
 }
-form button:hover {
-	background-color: #ffffff;
+form button a{
+	text-decoration: none;
+	color: white;
+}
+button:active{
+	background-color: red;
 }
