@@ -1,24 +1,53 @@
-*{
-	padding: 0px;
-	margin: 0px;
-	border-radius: 3px;
+body{	
+	background: url(../imgs/invierno1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
 }
-#header{
-	margin: 10px auto;
+section.primero{
+	background-color: rgba(0,0,0,0.6);
+	margin-left:-30px;
+	width: 1500px;
+	height: 160px;
+	border: solid;
+}
+section div.izquierda{
+	margin-left:90px ;
+	width: 170px;
+	height: 160px;
+	background-position: top left;
+	background-image: url("../imgs/colonmbia2.jpg");
+	
+}	
 
-	width: 500px;
-	font-family: Arial,Verdana;
+section div.pri{
+	margin:-110px 500px;
+	width: 438px;	
+	height: 160px;	
+	background-color: 	rgba(255,255,255,0.6);
 
 }
-
+section div.pri span{
+	color:red;
+	display: block;
+	font: 80px fantasy;
+	text-align: bottom center;
+	padding: 10px;	
+}
+section div.derecha{
+	margin: -160px 1230px ;
+	width: 170px;
+	height: 160px;
+	background-position: top left;
+	background-image: url("../imgs/colonmbia2.jpg");
+	
+}
 ul,li{
+	text-decoration: none;
 	list-style: none;
-	margin-left:10px;
-	
-	
+
 }
 .nav li a{
-	background-color: #440CAB;
+	background-color: rgba(0,0,0,0.6);
 	color: white;
 	text-decoration: none;
 	padding: 10px;
@@ -50,64 +79,15 @@ ul,li{
 	right:-40px;
 	top:0px;
 }
-section.primero{
-	background-color: rgba(0,0,0,0.6);
-	margin-left:-500px;
-	width: 1500px;
-	height: 160px;
-	border: solid;
-}
-section div.izquierda{
-	margin-left:90px ;
-	width: 170px;
-	height: 160px;
-	background-position: top left;
-	background-image: url("../imgs/colonmbia2.jpg");
-	
-}	
-
-section div.pri{
-	margin:-110px 500px;
-	width: 438px;	
-	height: 120px;	
-	background-color: 	rgba(255,255,255,0.6);
-
-}
-section div.pri span{
-	color:red;
-	display: block;
-	font: 70px fantasy;
-	text-align: center;
-	padding: 10px;	
-}
-section div.derecha{
-	margin: -160px 1230px ;
-	width: 170px;
-	height: 160px;
-	background-position: top left;
-	background-image: url("../imgs/colonmbia2.jpg");
-	
-}
-body{
-	margin:center;
-	width: 1800px;	
-	height: 1000px;	
-	background-image: url(../imgs/invierno1.jpg);
-	background-size: 100vw 100vh;
-	background-attachment: fixed;
-	
-	z-index: 1;
-}
-section,div{
-	z-index: 2;
-}
 section.segundo {
-	margin: 0px auto;
+	margin: 0px 30%;
 	padding: 0px;
 	background:url(../imgs/dark.jpg);
 	background-position: center;
-}
+	width: 500px;
+	
 
+}
 section.segundo form{
 	
 	
