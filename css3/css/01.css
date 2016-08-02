@@ -155,13 +155,29 @@ p~ul {
   color: #788011;
   padding: 20px;
 }
+.j18 input[type=checkbox]{
+  background-color: green;
+  -webkit-appearance:none;
+  cursor: pointer;
+}
 .j18 input:checked{
-  display: inline-block;
-  width: 600px; 
-  background-color: red;
-  border 2px solid: #acc62b; 
-  color: #788011;
-  padding: 20px;
+  
+ background-color:  green;
+}
+
+.j19 section :not(p){
+  background-color:   #e5ffc7;
+  border: 2px solid #acc62b;
+  color: #70811a;
+  padding:  8px;
+}
+.j20 ::selection{
+
+    background-color:  #fc03e2;
+    border: 2px solid;
+    color: #0321ef;
+    padding: 8px; 
+
 }
 
 
