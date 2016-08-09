@@ -58,7 +58,7 @@ h2{
 	font-size: 30px;
 	margin-bottom:20px;
 }
-input,textarea{
+datalist,input,textarea{
 	width:100%;
 	margin-bottom: 20px;
 	padding: 7px;
