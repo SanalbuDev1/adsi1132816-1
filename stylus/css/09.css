@@ -1,9 +1,8 @@
-body {
-  background-color: #000;
-}
-div {
-  background-color: #f00;
-  width: 200px;
+color-rojo #ff0,
+color-azul #00f,
+section {
+  background-color: color-azul;
   height: 200px;
-  margin: 20px auto;
+  margin: 50px auto;
+  width: 400px;
 }
