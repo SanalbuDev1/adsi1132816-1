@@ -20,9 +20,10 @@ header figure.logo {
 }
 nav {
   position: relative;
-  left: 360px;
-  top: -70px;
+  left: 450px;
+  top: -100px;
   width: 880px;
+  background-color:   white;
 }
 nav li {
   background-color: #e82231;
