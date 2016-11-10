@@ -393,6 +393,7 @@ div#democlick2:target form.registro{
 	width: 500px;
 	height: 400px;
 	margin:0px 50px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,1);
 	
 	
 }	
@@ -430,4 +431,125 @@ div#democlick2:target form.registro button.boton1{
 	
 	
 }	
+div#democlick1:target form#login a#remember{
+	display: block;
+	text-decoration: none;
+	margin: -20px 47px;
+	color:blue;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+div#democlick3 div#Nosotros{
+	
+	display: none;
+				
+
+}
+div#democlick3:target div#Nosotros{
+	width: 700px;
+	height: 600px;	
+	background-color: 	rgba(148,68,255,0.3);
+	display: block;
+	margin:auto;
+				
+
+}
+div#democlick3:target div#Nosotros p{
+		font-family: 'Orbitron', sans-serif;
+		font-weight: bolder;			
+
+}
+div#democlick3:target div#Nosotros div#carros:hover{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/brayan.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+
+div#democlick3:target div#Nosotros div.carro1{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro1.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+
+div#democlick3:target div#Nosotros div.carro2{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro2.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros p.carro2:after{
+		
+		content: "carrazo2";	
+
+}
+div#democlick3:target div#Nosotros div.carro3{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro3.png)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros div.carro4{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro4.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick3:target div#Nosotros div.carro5{
+		
+		height: 500px;	
+		background: transparent url(../IMGS/carro5.jpg)no-repeat center center;	
+		background-size: contain; 		
+
+}
+div#democlick4 form{
+	display: none;	
+}
+div#democlick4:target form{
+	display: block;
+	height: 300px;	
+	width: 400px;	
+	margin: 20px 300px;
+
+	
+}
+
+div#democlick4:target form input{
+	display: block;
+	padding: 10px;	
+	width: 300px;	
+	margin: auto;
+	margin:10px 0px 2px 38px;
+	outline:0px;
+	
+}
+div#democlick4:target form select{
+	display: block;
+	padding: 10px;	
+	width: 325px;	
+	margin:10px 0px 15px 38px;
+	
+}
+
+div#democlick4:target form input#TextArea{
+	display: block;
+	padding: 10px;	
+	width: 300px;	
+	margin: auto;
+	height: 100px;	
+}
+div#democlick4:target form button{
+	display: block;
+	padding: 10px;	
+	width: 324px;	
+	margin: auto;
+	height: 40px;	
+}
 

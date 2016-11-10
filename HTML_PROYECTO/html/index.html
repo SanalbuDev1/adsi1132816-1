@@ -48,8 +48,8 @@
 		<article class="head">
 			<nav class="left">
 				<li><a href="#democlick1">Login</a></li>
-				<li><a href="#democlick2">imagen2</a></li>
-				<li><a href="#democlick3">imagen3</a></li>
+				<li><a href="#democlick2">Registro</a></li>
+				<li><a href="#democlick3">Imagenes</a></li>
 				<li><a href="#democlick4">imagen4</a></li>
 			</nav>
 			<div id="democlick1">
@@ -63,6 +63,7 @@
 					<input class="form pass"type="password" maxlength="20" placeholder="ingrese su Contraseña">
 					<input name="option3" type="checkbox" class="form check" value="acepto terminos y condiciones">
 					<button class="boton" type="button">Logear</button>
+					<a id="remember" href="">olvide la contraseña</a>
 					<h2>Acepto que soy humano</h2>
 
 					
@@ -92,15 +93,55 @@
 					
 
 
+			</div>
+
+			
+			<div id="democlick3">	
+
+				<div id="Nosotros">	
+					<p>Nosotros somos una empresa compremetida con las personas
+					para el beneficio de cada una de ellas</p>
+					<div id="carros" class="carro1">	</div>
+					<p id="carros2"class="carro1"></p>
+					
+
+				</div>
+
 
 			</div>
-			
-			<div id="democlick3">	</div>
-			<div id="democlick4">	</div>
+			<div id="democlick4">	
+
+
+					<form action="	">
+						<input type="text" placeholder="nombre">
+						<select name="	ssss" id="ddd">Selecione
+							<option value="">Selecione</option>
+							<option value="">Queja</option>
+							<option value="">Comentario</option>
+						</select>
+						<input id="TextArea" type="text" placeholder="escribeme">
+						<button>Enviar	</button>
+
+					</form>
+			</div>
 		</article>
 
+		<script>
+
+		var sprite = document.getElementById('carros','carros2');
+		var na=1;
+		setInterval(function() {
+			//sprite.classList.removeALL();
+			sprite.className= '';
+			sprite.classList.add('carro'+na);
+			if(na==5) na=1;
+			else na++;
+		},2000);
+
+	</script>
+
 		
-		  <!-- <EMBED SRC="ms4.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">    -->
+		  <!-- <EMBED SRC="ms3.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">     -->
 	</body>
 
 </html>
