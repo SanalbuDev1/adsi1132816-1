@@ -10,14 +10,18 @@
 		<div id="cabezera">
 			<p class="wordStile">Word-Style   </p>
 			<nav id="nav1">
-				<li><a href="	">Register</a></li>
-				<li><a href="	">Contactenos</a></li>
-				<li><a href="	">Nosotros</a></li>
-				<li><a href="	">Servicios</a></li>
+				<li><a href="#democlick1	">login</a></li>
+				<li><a href="#democlick2	">Register</a></li>
+				<li><a href="#democlick3	">Productos</a></li>
+				<li><a href="#democlick4	">Contactenos</a></li>
 				<p class="imag">	</p>
 				<hr>	
 				<button></button>
+
 				<input type="	">
+
+				<input type="text" placeholder="Busqueda">
+
 				
 			</nav>
 		</div>
@@ -32,25 +36,33 @@
 		</div>
 		<div class="cuerpo"></div>
 		<nav class="productos">
-			<ul class="pro1 pro11">Inventario1
-				<li>producto</li>
-				<li>producto</li>
-				<li>producto</li>
-				<li>producto</li>
+			<ul class="pro1 pro11">Comida
+				<li><a href="#producto1">Comida rapida</a></li>
+				<li><a href="">producto</a></li>
+				<li><a href="">producto</a></li>
+				<li><a href="">producto</a></li>
 			</ul>
 			<ul class="pro1 pro12">Inventario2
-				<li>producto</li>
-				<li>producto</li>
-				<li>producto</li>
+				<li><a href="">producto</a></li>
+				<li><a href="">producto</a></li>
+				<li><a href="">producto</a></li>
 			</ul>
+
+			<article id="hambu">	
+					<input type="	" placeholder="Ingrese su numero de targeta">
+					<input type="	" placeholder="Ingrese el codigo de seguridad">
+					<button>aceptar</button>
+			</article>
 		</nav>
 		
+		
+
 		<article class="head">
 			<nav class="left">
-				<li><a href="#democlick1">Login</a></li>
-				<li><a href="#democlick2">Registro</a></li>
-				<li><a href="#democlick3">Imagenes</a></li>
-				<li><a href="#democlick4">imagen4</a></li>
+				<li><a href="#democlick5">Login</a></li>
+				<li><a href="#democlick6">Registro</a></li>
+				<li><a href="#democlick7">Productos</a></li>
+				<li><a href="#democlick8">Contactenos</a></li>
 			</nav>
 			<div id="democlick1">
 
@@ -75,14 +87,16 @@
 				
 				<form class="registro"action="">
 					<h2>Formulario - Registro</h2>
-					<input type="text" class="user" placeholder="Usuario">
-					<input type="password" class="pass" placeholder="Contraseña">
+					<input type="text" class="user" placeholder="Usuario" required>
+					<input type="password" class="pass" placeholder="Contraseña" required>
 					<h2 id="fecha">fecha de nacimiento</h1>
 					<input type="date" >
-					<input type="number" placeholder="ingrese su numero">
-					<input type="e-mail" placeholder="Ingrese su email">
-					<button class="boton1" type="submit">Submit</button>
-					<button class="boton1" type="reset">Registrarse</button>
+					<input type="number" placeholder="ingrese su numero" required>
+					<input type="e-mail" placeholder="Ingrese su email" required>
+					<input type="number" placeholder="Ingrese su Targeta de credito" required>
+					<input type="number" placeholder="Ingrese su codigo de seguridad" required>
+					<button class="boton1" type="submit">Registrarse</button>
+					<button class="boton1" type="reset">Submit</button>
 
 						
 
@@ -124,9 +138,45 @@
 
 					</form>
 			</div>
+			<div id="producto1">
+				
+				<div class="Pro Pro1">
+				<section class="imagen1">
+						
+				</section>
+					<p id="hamb">	Hamburguesa : Doble carne , Queso mosarela ,
+					tocino</p>
+					<p id="hamb">	Precio 12000</p>
+					<button type"submit"><a href="#hambu	" class="comprar">comprar</a></button>
+					
+				</div>
+				<div class="Pro Pro2">
+					<section class="imagen2">
+						
+					</section>
+				</div>
+				<div class="Pro Pro3">
+					<section class="imagen3">
+						
+					</section>
+				</div>
+				<div class="Pro Pro4">
+					<section class="imagen4">
+					
+				</div>
+			</div>
 		</article>
 
-		<script>
+		
+	
+
+		
+
+		
+		 
+ <!-- <EMBED SRC="ms4.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">    -->
+	</body>
+<script>
 
 		var sprite = document.getElementById('carros','carros2');
 		var na=1;
@@ -139,10 +189,6 @@
 		},2000);
 
 	</script>
-
-		
-		  <!-- <EMBED SRC="ms3.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">     -->
-	</body>
 
 </html>
 
